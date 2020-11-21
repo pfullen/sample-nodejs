@@ -18,5 +18,9 @@
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
     "uglify-js": "^2.6.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/pfullen/sample-nodejs.git",
+  "author": "pfullen <pfullen.code@gmail.com>",
+  "license": "MIT"
 }
