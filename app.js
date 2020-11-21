@@ -38,4 +38,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.get('/test', function(req, res) {
+  res.json({result: "Success"})
+})
+
 module.exports = app;
